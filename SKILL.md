@@ -16,7 +16,7 @@ version: 0.1.0
 
 - 推荐 Node.js `20.9.0+`。
 - 生成的项目使用 `pnpm`，不要改用 npm/yarn，除非用户明确要求。
-- 本 skill 可在 Codex、Claude Code、OpenCode 等支持读取 `SKILL.md` 的 Agent 中使用。
+- 本 skill 可在 Codex、Claude Code 等支持读取 `SKILL.md` 的 Agent 中使用。
 
 ## 创建前确认
 

@@ -4,22 +4,16 @@
 
 ## 安装
 
-Codex：安装到 `~/.codex/skills`
+Codex：安装到 `~/.agents/skills`
 
 ```shell
-npx skills add CDTRSFE/forge-starter --global --agent codex
+npx skills add CDTRSFE/forge-starter --global --yes --agent codex
 ```
 
 Claude Code：安装到 `~/.claude/skills`
 
 ```shell
-npx skills add CDTRSFE/forge-starter --global --agent claude-code
-```
-
-OpenCode：安装到 `~/.config/opencode/skills`
-
-```shell
-npx skills add CDTRSFE/forge-starter --global --agent opencode
+npx skills add CDTRSFE/forge-starter --global --yes --agent claude-code
 ```
 
 ## 使用
@@ -43,17 +37,11 @@ Agent 会自动加载本 skill 并执行对应流程。
 Codex：
 
 ```shell
-npx skills update forge-starter --global --agent codex
+npx skills update forge-starter --global --yes --agent codex
 ```
 
 Claude Code：
 
 ```shell
-npx skills update forge-starter --global --agent claude-code
-```
-
-OpenCode：
-
-```shell
-npx skills update forge-starter --global --agent opencode
+npx skills update forge-starter --global --yes --agent claude-code
 ```
