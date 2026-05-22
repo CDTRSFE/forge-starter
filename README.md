@@ -4,19 +4,19 @@
 
 ## 安装
 
-Codex：
+Codex：安装到 `~/.codex/skills`
 
 ```shell
 npx skills add CDTRSFE/forge-starter --global --agent codex
 ```
 
-Claude Code：
+Claude Code：安装到 `~/.claude/skills`
 
 ```shell
 npx skills add CDTRSFE/forge-starter --global --agent claude-code
 ```
 
-OpenCode：
+OpenCode：安装到 `~/.config/opencode/skills`
 
 ```shell
 npx skills add CDTRSFE/forge-starter --global --agent opencode
