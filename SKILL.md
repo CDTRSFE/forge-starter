@@ -1,20 +1,22 @@
 ---
 name: forge-starter
-description: Use when the user wants to create, scaffold, initialize, or generate a new TRS Vue/Vite front-end project, including vite-tpl, 前端项目创建, 项目初始化, 后台管理, 管理系统, or admin.
+description: Use when the user wants to create, scaffold, initialize, or generate a new Vue/Vite front-end project, 前端项目创建, or 项目初始化.
 version: 0.1.0
 ---
 
-# Forge Frontend Starter
+# Forge Starter
 
 ## 概览
 
-根据用户需求创建 TRS 前端项目。确认项目目录名后，使用 `vite-tpl` 文档中的命令生成项目目录，并在成功后告诉用户如何初始化、安装依赖和启动开发服务。
+根据用户需求创建 Vue/Vite 前端项目。确认项目目录名后，使用 `vite-tpl` 文档中的命令生成项目目录，并在成功后告诉用户如何初始化、安装依赖和启动开发服务。
+
+项目模板地址：https://github.com/CDTRSFE/vite-tpl
 
 ## 运行环境
 
 - 推荐 Node.js `20.9.0+`。
 - 生成的项目使用 `pnpm`，不要改用 npm/yarn，除非用户明确要求。
-- 本 skill 可在 Codex、Claude Code 等支持读取 `SKILL.md` 的 Agent 中使用。
+- 本 skill 可在 Codex、Claude Code、OpenCode 等支持读取 `SKILL.md` 的 Agent 中使用。
 
 ## 创建前确认
 
@@ -89,22 +91,22 @@ pnpm dev
 
 ## 示例
 
-用户：创建一个叫 `ops-admin` 的项目。
+用户：创建一个叫 `demo-app` 的项目。
 
 执行：
 
 ```shell
-npx degit CDTRSFE/vite-tpl ops-admin
-cd ops-admin
+npx degit CDTRSFE/vite-tpl demo-app
+cd demo-app
 git init
 ```
 
 回复用户：
 
 ```text
-项目 ops-admin 已创建。后续可以执行：
+项目 demo-app 已创建。后续可以执行：
 
-cd ops-admin
+cd demo-app
 pnpm i
 pnpm dev
 ```
